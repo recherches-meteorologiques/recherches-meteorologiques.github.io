@@ -3,7 +3,7 @@ import { staticPlugin } from '@elysiajs/static'
 
 new Elysia()
     .use(staticPlugin({
-        assets: 'static',
+        assets: '.',
         prefix: '/',
     }))
     .listen(3000)

@@ -1,5 +1,30 @@
+// {
+//     "files.associations": {
+//         "*.json": "jsonc"
+//     }
+// }
+
 {
-    "files.associations": {
-        "*.json": "jsonc"
-    }
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "always",
+		"source.organizeImports": "always"
+	},
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	"eslint.format.enable": true,
+	"typescript.preferences.importModuleSpecifier": "non-relative",
+	"typescript.preferences.importModuleSpecifierEnding": "js",
+	"auto-rename-tag.activationOnLanguage": [
+		"*"
+	],
+	
+	"javascript.suggest.completeJSDocs": false,
+	"javascript.suggest.jsdoc.generateReturns": false,
+	"typescript.suggest.completeJSDocs": false,
+	"typescript.suggest.jsdoc.generateReturns": false,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	}
 }

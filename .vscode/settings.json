@@ -28,5 +28,8 @@
 		"editor.defaultFormatter": "vscode.json-language-features"
 	},
 	"workbench.colorTheme": "Default Light+",
-	"workbench.preferredDarkColorTheme": "Cursor Dark"
+	"workbench.preferredDarkColorTheme": "Cursor Dark",
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	}
 }
